@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Script", "Script.csproj", "{483B85AC-21A0-4891-9000-104442324F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf_interface", "..\Wpf_interface\Wpf_interface.csproj", "{13470D90-14FB-4D83-8FF1-DB73057DEBD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483B85AC-21A0-4891-9000-104442324F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483B85AC-21A0-4891-9000-104442324F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483B85AC-21A0-4891-9000-104442324F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483B85AC-21A0-4891-9000-104442324F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13470D90-14FB-4D83-8FF1-DB73057DEBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13470D90-14FB-4D83-8FF1-DB73057DEBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13470D90-14FB-4D83-8FF1-DB73057DEBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13470D90-14FB-4D83-8FF1-DB73057DEBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {618CC597-F47F-45E0-8849-8233E87D50C9}
+	EndGlobalSection
+EndGlobal
