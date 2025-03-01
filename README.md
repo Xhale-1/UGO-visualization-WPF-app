@@ -1,1 +1,2 @@
-# ugo vis app (СилМаш)
+# UGO-visualization-WPF-app
+Public
