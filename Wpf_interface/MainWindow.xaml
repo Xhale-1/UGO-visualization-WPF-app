@@ -1,0 +1,21 @@
+﻿<Window x:Class="Wpf_interface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_interface"
+        mc:Ignorable="d"
+        Topmost="True"
+        Title="MainWindow" 
+        WindowStyle="None"
+        Height="200" 
+        Width="100">
+    <!--
+
+    Background="Transparent"
+    AllowsTransparency="True"-->
+
+
+    <!--<Border x:Name="border" CornerRadius="10 10 10 10" BorderThickness="0.6" BorderBrush="Black" Background="White" Margin="0,0,0,0">
+    </Border>-->
+</Window>

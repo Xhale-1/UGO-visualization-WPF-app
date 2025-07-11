@@ -1,0 +1,44 @@
+### VisualStudio ###
+## Игнорируем служебные файлы VS
+.vs/
+*.user
+*.suo
+*.userprefs
+*.vsp
+*.vspscc
+*.sln.iml
+
+## Временные файлы
+*.tmp
+*.log
+*.tlog
+*.lastbuildstate
+
+### Build ###
+## Исключаем папки сборки и объектные файлы
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.nupkg
+
+### NuGet ###
+## Пакеты NuGet (восстанавливаются автоматически)
+packages/
+[Nn]u[Gg]et.exe
+*.nupkg
+
+### Rider ###
+## Для тех, кто использует JetBrains Rider
+.idea/
+*.sln.iml
+
+### macOS ###
+## Служебные файлы macOS (если разработка ведётся на Mac)
+.DS_Store

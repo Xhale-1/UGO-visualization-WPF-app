@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="e3">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>25</VersionMinor>
+      <VersionMajor>20</VersionMajor>
+      <Guid>59b53e00-679b-41ed-9d11-766e27b6a7a4</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Wpf_interface\Wpf_interface.csproj" />
+  </ItemGroup>
+
+</Project>
